@@ -1,0 +1,97 @@
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+let x = 6;
+let y = "shhs";
+let z = x % y;
+ x = 5;
+z = x ** 2;
+console.log(typeof(y));
+console.log("Welcome to Programiz!",z);
+let d=16 +4 +"Volvo";
+console.log(d);
+let e="Volvo"+20+4;
+console.log(e);
+let f="";
+for (let i=0;i<6;i++){
+    
+    for (j=0;j<6;j++){
+        /*
+        if (j>=5-i-1){
+        f=f+"*";
+        }
+        */
+        if (i==5){
+            f=f+"*";
+        }
+        else{
+         if ((j==0)||(j==i)){
+        f=f+"*";
+        }
+        else{
+            f=f+" ";
+        }
+        }
+    }
+    f=f+"\n";
+    //console.log(f);
+  
+}
+
+console.log(f);
+let answer3 = 'He is called "Johnny"'
+console.log(answer3);
+const person = {fname:"John", lname:"Doe", age:25};
+
+let text = "";
+for (let x in person) {
+    console.log(x);
+  text += person[x];
+}
+console.log(text);
+
+let  arr=[10,20,30,23];
+for (let x in arr) {
+    console.log(x);
+  text += arr[x];
+}
+console.log(text);
+arr.forEach((value)=>{
+    if (value>20){
+    console.log(value);
+    }
+});
+console.log(arr);
+const letters = new Set(["a","b","c"]);
+
+// List all Elements
+ text = "";
+letters.forEach (function(value) {
+  text += value;
+})
+console.log(letters);
+console.log(text);
+const numbers = [65, 44, 12, 4];
+const newArr = numbers.map(myFunction)
+
+function myFunction(num) {
+  return num * 10;
+}
+console.log(numbers);
+console.log(newArr);
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let index = 2;
+let fruit = fruits.at(index);
+console.log(fruit);
+const fruits1 = ["Banana", "Orange", "Apple", "Mango"];
+let text1 = fruits1.concat("Hii");
+console.log(text1);
+const fruits2 = {1:"Banana", 2:"Orange",3:"Apple","OK": "Mango"};
+const keys = Object.keys(fruits2);
+console.log(keys.indexOf('OK'));
+console.log(keys);
+
+let text2 = "";
+for (let x1 of keys) {
+  text2 += x1;
+}
+console.log(text2);

@@ -1,0 +1,11 @@
+let a=prompt("Enter value of a"+"\n");
+let b=prompt("Enter Value of b"+"\n");
+a=parseInt(a);
+b=parseInt(b);
+console.log(a,b);
+
+a=a+b;
+b=a-b;
+a=a-b;
+
+console.log(a,b);
